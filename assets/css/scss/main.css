@@ -6160,7 +6160,135 @@ body {
 }
 
 .header_wrapp .menu .menu_list .count {
-  top: 70%;
-  right: -2px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  color: #FFFFFF;
+  top: 42%;
+  left: 100%;
+  right: 0;
+}
+
+.sidebar_left {
+  background: #FFFFFF;
+  /* Shadow medium */
+  -webkit-box-shadow: 0px 2px 8px #E9E9E9;
+          box-shadow: 0px 2px 8px #E9E9E9;
+  border-radius: 10px;
+  height: 800px;
+  margin-top: 20px;
+}
+
+.sidebar_left .sidebar_header {
+  background: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%), #2C2C2C;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.sidebar_left .sidebar_header .profile {
+  margin-bottom: 50px;
+}
+
+.sidebar_left .sidebar_header .profile .img_ava {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #FF795B;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 3px;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.sidebar_left .sidebar_header .profile .profile_content .profile_range {
+  font-weight: normal;
+  font-size: 26px;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.sidebar_left .sidebar_header .profile .profile_content .profile_range .badge {
+  background-color: #5A60E7;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.1;
+  color: #EFEFFD;
+  padding: 2px 5px;
+  top: 10px !important;
+  left: 95% !important;
+}
+
+.sidebar_left .sidebar_header .profile .profile_content .profile_name {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 110%;
+  color: #FFFFFF;
+}
+
+.sidebar_left .sidebar_header .edit {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 110%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #ACAFF3;
+  width: 100px;
+}
+
+.sidebar_left .sidebar_header .edit img {
+  margin-right: 5px;
+}
+
+.sidebar_left .sidebar_header .edit:hover {
+  text-decoration: none;
+}
+
+.sidebar_left .sidebar_main {
+  padding: 0px 40px 20px 20px;
+}
+
+.sidebar_left .sidebar_main .accordion_item {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 5px 5px 10px;
+  margin-bottom: 15px;
+}
+
+.sidebar_left .sidebar_main .accordion_item a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1;
+  color: #5A60E7;
+}
+
+.sidebar_left .sidebar_main .accordion_item:hover {
+  background: #EFEFFD;
+}
+
+.sidebar_left .sidebar_main .accordion_item_child {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.sidebar_left .sidebar_main .accordion_item_child a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1;
+  color: #5A60E7;
+}
+
+.sidebar_left .sidebar_main .accordion_item_child:hover {
+  background: #EFEFFD;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,13 @@
     <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./node_modules/slick-carousel/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="./node_modules/slick-carousel/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="./node_modules/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./node_modules/slick-carousel/slick/slick-theme.css" />
     <link rel="stylesheet" href="./assets/css/scss/main.css">
 </head>
+
 <body>
     <header class="header_wrapp">
         <div class="container">
@@ -30,13 +32,17 @@
                             <li class="menu_list_item"><a href="#" class="menu_list_item_link">Игровые отчёты</a></li>
                             <li class="menu_list_item"><a href="#" class="menu_list_item_link">Статистика</a></li>
                             <li class="dropdown menu_list_item">
-                                <a class="dropdown-toggle menu_list_item_link" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="dropdown-toggle menu_list_item_link" href="#" role="button"
+                                    id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                                     Ещё
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                  <li class="menu_list_item"><a class="dropdown-item menu_list_item_link" href="#">Футбол</a></li>
-                                  <li class="menu_list_item"><a class="dropdown-item menu_list_item_link" href="#">Футбол</a></li>
-                                  <li class="menu_list_item"><a class="dropdown-item menu_list_item_link" href="#">Футбол</a></li>
+                                    <li class="menu_list_item"><a class="dropdown-item menu_list_item_link"
+                                            href="#">Футбол</a></li>
+                                    <li class="menu_list_item"><a class="dropdown-item menu_list_item_link"
+                                            href="#">Футбол</a></li>
+                                    <li class="menu_list_item"><a class="dropdown-item menu_list_item_link"
+                                            href="#">Футбол</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -46,24 +52,30 @@
                     <nav class="menu">
                         <ul class="menu_list d-flex align-items-center justify-content-around">
                             <li class="dropdown menu_list_item">
-                                <a class="dropdown-toggle menu_list_item_link img_season_link" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="dropdown-toggle menu_list_item_link img_season_link" href="#" role="button"
+                                    id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img class="img_season" src="./assets/images/Vector.svg" alt="season_logo">
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                  <li class="menu_list_item"><a class="dropdown-item menu_list_item_link" href="#">Футбол</a></li>
-                                  <li class="menu_list_item"><a class="dropdown-item menu_list_item_link" href="#">Футбол</a></li>
-                                  <li class="menu_list_item"><a class="dropdown-item menu_list_item_link" href="#">Футбол</a></li>
+                                    <li class="menu_list_item"><a class="dropdown-item menu_list_item_link"
+                                            href="#">Футбол</a></li>
+                                    <li class="menu_list_item"><a class="dropdown-item menu_list_item_link"
+                                            href="#">Футбол</a></li>
+                                    <li class="menu_list_item"><a class="dropdown-item menu_list_item_link"
+                                            href="#">Футбол</a></li>
                                 </ul>
                             </li>
                             <li class="menu_list_item"><a href="#" class="menu_list_item_link">
-                                <img class="img_ava img-fluid" src="./assets/images/ava.png" alt="ava">
-                            </a></li>
+                                    <img class="img_ava img-fluid" src="./assets/images/ava.png" alt="ava">
+                                </a></li>
                             <li class=" btn position-relative">
                                 <a href="#" class="menu_list_item_link position-relative">
                                     <img class="img_bag" src="./assets/images/Group.svg" alt="bag">
                                 </a>
-                                <span class="count position-absolute bottom-0 start-60 translate-middle p-2 bg-primary border border-light rounded-circle">
-                                    <span class="visually-hidden">1</span>
+                                <span
+                                    class="count position-absolute bottom-0 start-50 p-1 bg-primary border border-light rounded-circle">
+                                    9+
+                                    <span class="visually-hidden">unread messages</span>
                                 </span>
                             </li>
                         </ul>
@@ -72,6 +84,77 @@
             </div>
         </div>
     </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="sidebar_left">
+                        <div class="sidebar_header">
+                            <div class="profile d-flex align-items-start">
+                                <img class="img_ava img-fluid" src="./assets/images/ava.png" alt="ava">
+                                <div class="profile_content">
+                                    <h2 class="position-relative d-block profile_range">89.40
+                                        <span class="position-absolute start-100 translate-middle badge rounded-pill">
+                                            999+
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    </h2>
+                                    <h3 class="profile_name">Елишакашвили Михо</h3>
+                                </div>
+                            </div>
+                            <a href="#" class="edit">
+                                <img src="./assets/images/edit.svg" alt="edit_icon">
+                                Редактировать
+                            </a>
+                        </div>
+                        <div class="sidebar_main">
+                            <ul class="accordion" id="accordionExample">
+                                <li class="accordion_item active" id="headingOne" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-controls="collapseOne">
+                                <img src="./assets/images/user.svg" alt="user=icon">
+                                    <a class="accordion_item_link" >
+                                        Статистика
+                                    </a>
+                                </li>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <ul class="accordion-body">
+                                        <li class="accordion_item_child"><a href="#">Футбол</a></li>
+                                        <li class="accordion_item_child"><a href="#">Баскетбол</a></li>
+                                        <li class="accordion_item_child"><a href="#">Волейбол</a></li>
+                                    </ul>
+                                </div>
+                                <li class="accordion_item">
+                                    <a href="#">
+                                        <img src="./assets/images/calendar.svg" alt="calendar_icon">
+                                        Ближайшие игры
+                                    </a>
+                                </li>
+                                <li class="accordion_item">
+                                    <a href="#">
+                                        <img src="./assets/images/report.svg" alt="report-icon">
+                                        Игровые отчёты
+                                    </a>
+                                </li>
+                                <li class="accordion_item">
+                                    <a href="#">
+                                        <img src="./assets/images/history.svg" alt="report-icon">
+                                        История заказов
+                                    </a>
+                                </li>
+                                <li class="accordion_item">
+                                    <a href="#">
+                                        <img src="./assets/images/log out.svg" alt="log_out_icon">
+                                        Выйти
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
 
 
@@ -83,4 +166,5 @@
     <script src="./node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
     <script src="./assets/lib/js/index.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,104 @@
+.sidebar_left{
+    background: #FFFFFF;
+    /* Shadow medium */
+    box-shadow: 0px 2px 8px #E9E9E9;
+    border-radius: 10px;
+    height: 800px;
+    margin-top: 20px;
+    .sidebar_header{
+        background: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%), #2C2C2C;
+        border-radius: 10px;
+        padding: 20px;
+        color: white;
+        margin-bottom: 50px;
+        .profile{
+            margin-bottom: 50px;
+            .img_ava{
+                width: 60px;
+                height: 60px;
+                border: 2px solid #FF795B;
+                box-sizing: border-box;
+                padding: 3px;
+                background-color: transparent;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+            .profile_content{
+                .profile_range{
+                    font-weight: normal;
+                    font-size: 26px;
+                    color: #FFFFFF;
+                    padding: 0;
+                    margin: 0;
+                    width: 100px;
+                    margin-bottom: 5px;
+                    .badge{
+                        background-color: #5A60E7;
+                        font-weight: normal;
+                        font-size: 12px;
+                        line-height: 1.1;
+                        color: #EFEFFD;
+                        padding: 2px 5px;
+                        top: 10px !important;
+                        left: 95% !important;
+                    }
+                }
+                .profile_name{
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 110%;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .edit{
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 110%;
+            display: flex;
+            text-decoration-line: underline;
+            color: #ACAFF3;
+            width: 100px;
+            img{
+                margin-right: 5px;
+            }
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+    .sidebar_main{
+        padding: 0px 40px 20px 20px;
+        .accordion_item{
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 5px 5px 5px 10px;
+            margin-bottom: 15px;
+            a{
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 1;
+                color: #5A60E7;
+            }
+            &:hover{
+                background: #EFEFFD;
+            }
+        }
+        .accordion_item_child{
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 5px 10px;
+            a{
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 1;
+                color: #5A60E7;
+            }
+            &:hover{
+                background: #EFEFFD;
+            }
+        }
+        
+
+    }
+}
