@@ -1,0 +1,45 @@
+.header_wrapp{
+    padding: 25px 40px;
+    /* Grey */
+    background: #FAF9F9;
+    /* Shadow small */
+    box-shadow: 0px 2px 4px #E9E9E9;
+    .logo_img{
+        width: 187px;
+        height: 32px;
+    }
+    .menu{
+        max-width: 500px;
+        .menu_list{
+            .menu_list_item{
+                .menu_list_item_link{
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 110%;
+                    /* Black */
+                    color: #222222;
+                    .img_ava{
+                        width: 40px;
+                        height: 40px;
+                        padding: 1px;
+                        border-radius: 50%;
+                        border: 1px solid #5A60E7;
+                    }
+                }
+                .img_season_link{
+                    background: #FFFFFF;
+                    border-radius: 5px;
+                    padding: 8px;
+                    .img_season{
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+            .count{
+                top: 70%;
+                right:-2px;
+            }
+        }
+    }
+}
